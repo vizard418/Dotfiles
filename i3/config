@@ -55,13 +55,9 @@ client.background         #282828
 # Autostart .desktop files
 exec --no-startup-id dex-autostart --autostart --environment i3
 
-# Lock screen on suspend
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-
 # Disable screen blanking and power saving
 exec --no-startup-id xset s off
-#exec --no-startup-id xset s noblank
-exec --no-startup-id xset -dpms
+exec --no-startup-id xset -dpms 600 600 600
 
 # Network manager applet
 exec --no-startup-id nm-applet
