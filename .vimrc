@@ -5,7 +5,6 @@ set numberwidth=4           " Set width of line number column
 set number                  " Show Absolute line numbers
 set relativenumber          " Show relative line numbers
 set nowrap                  " Do not wrap long lines
-colorscheme slate           " Set colorscheme
 set background=dark         " Use colors optimized for dark background
 
 " === Interface & UI ===
